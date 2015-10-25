@@ -5,7 +5,16 @@
   <link rel="stylesheet" type="text/css" media="all" href="style.css">
  </head>
  <body>
-  <p> hello </p>
-  
+  <p id="p"> hello </p>
+  <div id="place">press it </div>
+  <script>
+  	(function(){
+		var temp =  document.getElementById('p');
+		temp.addEventListener('click',function(){
+			//alert("this");
+		},false);
+	})();	
+  </script>
+ <script src="script.js"></script> 
  </body>
 </html>
